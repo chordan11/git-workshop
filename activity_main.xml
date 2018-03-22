@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[사용자관리]" 
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+	<ListView 
+	    android:id="@+id/list"
+	    android:layout_width="match_parent"
+	    android:layout_height="0px"
+	    android:layout_weight="1"/>
+	<Button 
+	    android:id="@+id/register"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="사용자 등록"
+	    android:onClick="mClick"/> 
+	   
+</LinearLayout>
